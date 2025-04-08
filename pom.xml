@@ -1,28 +1,29 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.example</groupId>
-    <artifactId>HelloWorldProject</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <properties>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
-    </properties>
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>3.4</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>18.0</version>
-        </dependency>
-</dependencies>
-</project>
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:project xmlns:ns0="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <ns0:modelVersion>4.0.0</ns0:modelVersion>
+    <ns0:groupId>com.example</ns0:groupId>
+    <ns0:artifactId>HelloWorldProject</ns0:artifactId>
+    <ns0:version>1.0-SNAPSHOT</ns0:version>
+    <ns0:properties>
+        <ns0:maven.compiler.source>1.7</ns0:maven.compiler.source>
+        <ns0:maven.compiler.target>1.7</ns0:maven.compiler.target>
+    </ns0:properties>
+    <ns0:dependencies>
+        <ns0:dependency>
+            <ns0:groupId>junit</ns0:groupId>
+            <ns0:artifactId>junit</ns0:artifactId>
+            <ns0:version>4.13.2</ns0:version>
+            <ns0:scope>test</ns0:scope>
+        </ns0:dependency>
+        <ns0:dependency>
+            <ns0:groupId>org.apache.commons</ns0:groupId>
+            <ns0:artifactId>commons-lang3</ns0:artifactId>
+            <ns0:version>3.17.0</ns0:version>
+        </ns0:dependency>
+        <ns0:dependency>
+            <ns0:groupId>com.google.guava</ns0:groupId>
+            <ns0:artifactId>guava</ns0:artifactId>
+            <ns0:version>33.4.6-jre</ns0:version>
+        </ns0:dependency>
+</ns0:dependencies>
+</ns0:project>
