@@ -1,0 +1,30 @@
+import org.apache.commons.lang3.RandomStringUtils;
+
+public class RandomTest {
+    public String genRandom() {
+        return RandomStringUtils.randomAlphanumeric(10);
+    }
+}
+
+
+
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.TemporaryFolder;
+
+import java.io.File;
+import java.io.IOException;
+
+import static org.junit.Assert.assertTrue;
+
+public class FileHandlerTest {
+
+    @Rule
+    public TemporaryFolder tempFolder = new TemporaryFolder();
+
+    @Test
+    public void testCreateTempFile() throws IOException {
+        File tempFile = tempFolder.newFile("test.txt");
+        assertTrue(tempFile.exists());
+    }
+}
